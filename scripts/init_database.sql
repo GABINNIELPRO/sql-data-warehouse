@@ -1,3 +1,11 @@
+/*==============================================================================
+ Script : Create_DataWarehouse_Structure.sql
+ Objet  : (Re)crée la base 'DataWarehouse' + schémas bronze/silver/gold
+ Date   : 2025-10-29 (Asia/Makassar) | Version : 1.0
+ Note   : DROP conditionnel (SINGLE_USER + ROLLBACK IMMEDIATE). ⚠ Supprime les données.
+ Usage  : Exécuter avec droits suffisants (sysadmin/dbcreator) depuis SSMS/SQLCMD.
+==============================================================================*/
+
 USE master;
 GO
 
